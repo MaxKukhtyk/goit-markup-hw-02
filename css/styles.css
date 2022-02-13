@@ -1,0 +1,213 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --background-white-color: #f5f4fa;
+  --background-dark-color: #2f303a;
+  --text-prime-color: #757575;
+  --text-secondary-color: #212121;
+  --text-white-color: #ffffff;
+  --active-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  color: var(--text-prime-color);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* Header */
+.header-logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.header-logo-link > span {
+  color: #000000;
+}
+.nav-list-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary-color);
+}
+.nav-list-link:hover,
+.nav-list-link:focus,
+.nav-list-link:active {
+  color: var(--active-color);
+}
+.active {
+  color: var(--active-color);
+}
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-prime-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--active-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--background-dark-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-white-color);
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-white-color);
+  background-color: var(--active-color);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+/* Features */
+.features-list-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-secondary-color);
+}
+.features-list-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* Our Activity */
+.activity-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary-color);
+}
+
+/* Our Team */
+.team {
+  background-color: var(--background-white-color);
+}
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary-color);
+}
+.team-list-item {
+  background-color: white;
+}
+.team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary-color);
+}
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Portfolio */
+.portfolio-filter-list-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary-color);
+  background-color: var(--background-white-color);
+  cursor: pointer;
+}
+.portfolio-filter-list-btn:hover,
+.portfolio-filter-list-btn:focus {
+  color: var(--text-white-color);
+  background-color: var(--active-color);
+}
+.portfolio-list-item {
+  background-color: #fff;
+}
+.portfolio-list-subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary-color);
+}
+.portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--background-dark-color);
+}
+.footer-logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.footer-logo-link > span {
+  color: #ffffff;
+}
+.adress-text {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-white-color);
+}
+.adress-list-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress-list-link:hover,
+.adress-list-link:focus {
+  color: var(--active-color);
+}
